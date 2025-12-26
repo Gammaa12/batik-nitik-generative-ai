@@ -38,14 +38,15 @@ Dataset yang digunakan berasal dari **Mendeley Data**:
    ```bash
    pip install torch transformers diffusers accelerate peft faiss-gpu bitsandbytes
    ```
-3. **Clone Repository:**
+3. **Pipeline Utama:**
 - Jalankan notebook/script untuk preprocessing CLIP embeddings.
 - Lakukan fine-tuning BLIP-2 menggunakan script LoRA yang tersedia.
 
 ## 📈 Evaluasi Model
 Proyek ini dievaluasi menggunakan berbagai metrik standar industri:
 
-Komponen	Metrik	Tujuan
-Retrieval	Top-K Accuracy, mAP	Mengukur ketepatan pencarian motif.
-Captioning	BLEU, ROUGE	Mengukur kualitas deskripsi teks model BLIP-2.
-Generative	CLIP Score, FID	Mengukur kesesuaian gambar dengan prompt dan realisme motif.
+|Komponen|	Metrik|	Tujuan|
+---------------------------------
+|Retrieval|	Top-K Accuracy, mAP|	Mengukur ketepatan pencarian motif.|
+|Captioning|	BLEU, ROUGE|	Mengukur kualitas deskripsi teks model BLIP-2.|
+|Generative|	CLIP Score, FID|	Mengukur kesesuaian gambar dengan prompt dan realisme motif.|
