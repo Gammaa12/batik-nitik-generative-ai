@@ -298,6 +298,7 @@ Terdapat dua metode input pada panel kiri:
     </td>
   </tr>
 </table>
+
 ### 3. Alur Proses (Run Inference)
 Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
 1.  **Retrieval Phase**: Menampilkan Top-K motif paling mirip beserta skor persentase kemiripannya.
@@ -312,5 +313,6 @@ Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
   </tr>
 </table>
 ---
-**© 2024 | Machine Learning**
+
+**© 2025 | Generative AI**
 
