@@ -247,6 +247,7 @@ Cukup jalankan sel notebook secara berurutan:
 ## 🛠️ Cara Menggunakan Dashboard
 
 sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/), jika t
+
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
 * **Unggah Gambar**: Masukkan foto batik Nitik untuk mencari motif serupa dan menjadikannya referensi struktur (Img2Img).
@@ -254,9 +255,8 @@ Terdapat dua metode input pada panel kiri:
 <table align="center">
   <tr>
     <td align="center">
-      <b>Generated Result (AI)</b><br>
+      <b>Sidebar</b><br>
       <img src="assets/images/sidebar.PNG" width="200px"><br>
-      <i>Warna: Yellow-Black</i>
     </td>
   </tr>
 </table>
@@ -268,9 +268,8 @@ Terdapat dua metode input pada panel kiri:
 <table align="center">
   <tr>
     <td align="center">
-      <b>Generated Result (AI)</b><br>
-      <img src="assets/images/parameter.PNG" width="200px"><br>
-      <i>Warna: Yellow-Black</i>
+      <b>Parameter</b><br>
+      <img src="assets/images/paramter.PNG" width="200px"><br>
     </td>
   </tr>
 </table>
@@ -282,9 +281,8 @@ Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
 <table align="center">
   <tr>
     <td align="center">
-      <b>Generated Result (AI)</b><br>
+      <b></b>Run Inference<br>
       <img src="assets/images/run.PNG" width="200px"><br>
-      <i>Warna: Yellow-Black</i>
     </td>
   </tr>
 </table>
