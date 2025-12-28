@@ -181,32 +181,57 @@ Mengukur kualitas gambar sintetis yang dihasilkan oleh sistem.
 
 Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 
+### 1. Query Teks
 <table align="center">
   <tr>
     <td align="center">
-      <b>Input Query (Base Image)</b><br>
-      <img src="assets/query_sample.jpg" width="200px"><br>
-      <i>Motif: Sekar Kemuning</i>
+      <b>Input Query (Teks)</b><br>
+      <img src="assets/images/tks.PNG" width="200px"><br>
     </td>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/retrieval_match.jpg" width="200px"><br>
-      <i>Konteks Faktual ditemukan</i>
+      <img src="assets/images/hasiltks.PNG" width="200px"><br>
     </td>
     <td align="center">
-      <b>Generated Result (AI)</b><br>
-      <img src="assets/generated_result.png" width="200px"><br>
-      <i>Warna: Yellow-Black</i>
+      <b>Generated Caption</b><br>
+      <img src="assets/images/captiontks.PNG" width="200px"><br>
+    </td>
+    <td align="center">
+      <b>Generated Image</b><br>
+      <img src="assets/images/barutks.PNG" width="200px"><br>
     </td>
   </tr>
 </table>
+
+### 2. Query Gambar
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Input Query (Image)</b><br>
+      <img src="assets/images/gambar.PNG" width="200px"><br>
+    </td>
+    <td align="center">
+      <b>Retrieval Match (FAISS)</b><br>
+      <img src="assets/images/hasilgambar.PNG" width="200px"><br>
+    </td>
+    <td align="center">
+      <b>Generated Caption</b><br>
+      <img src="assets/images/captiongambar.PNG" width="200px"><br>
+    </td>
+    <td align="center">
+      <b>Generated Image</b><br>
+      <img src="assets/images/barugambar.PNG" width="200px"><br>
+    </td>
+  </tr>
+</table>
+
 ---
 <h1 id="instalasi-dan-penggunaan" align="center">🛠️ Instalasi dan Penggunaan 🛠️</h1>
 
 Proyek ini disediakan dalam bentuk **Jupyter Notebook (.ipynb)** agar mudah dijalankan, terutama melalui Google Colab.
 
 ### 1. Persiapan Environment
-Buka file `.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
+Buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
 
 ### 2. Instalasi Dependencies
 Cukup jalankan sel pertama di dalam notebook yang berisi perintah instalasi library berikut:
@@ -246,7 +271,7 @@ Cukup jalankan sel notebook secara berurutan:
 
 ## 🛠️ Cara Menggunakan Dashboard
 
-sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/), jika t
+Sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya.
 
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
