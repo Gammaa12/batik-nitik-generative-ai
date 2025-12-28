@@ -246,22 +246,48 @@ Cukup jalankan sel notebook secara berurutan:
 
 ## 🛠️ Cara Menggunakan Dashboard
 
+sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/), jika t
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
 * **Unggah Gambar**: Masukkan foto batik Nitik untuk mencari motif serupa dan menjadikannya referensi struktur (Img2Img).
 * **Query Teks**: Masukkan deskripsi (Contoh: *"Batik warna coklat bunga"*) untuk mencari motif berdasarkan makna atau warna.
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Generated Result (AI)</b><br>
+      <img src="assets/images/sidebar.PNG" width="200px"><br>
+      <i>Warna: Yellow-Black</i>
+    </td>
+  </tr>
+</table>
 
 ### 2. Mengatur Parameter Generasi
 * **Jumlah Retrieval (Top-K)**: Menentukan berapa banyak motif referensi yang akan memengaruhi hasil akhir.
 * **Strength**: Mengatur seberapa jauh AI boleh memodifikasi gambar asli (khusus input gambar).
 * **Guidance Scale**: Mengatur seberapa patuh AI terhadap teks prompt yang dihasilkan.
-
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Generated Result (AI)</b><br>
+      <img src="assets/images/parameter.PNG" width="200px"><br>
+      <i>Warna: Yellow-Black</i>
+    </td>
+  </tr>
+</table>
 ### 3. Alur Proses (Run Inference)
 Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
 1.  **Retrieval Phase**: Menampilkan Top-K motif paling mirip beserta skor persentase kemiripannya.
 2.  **Analysis Phase**: Menampilkan *Final Fusion Prompt* yang merupakan gabungan Style visual dan Factual metadata.
 3.  **Generation Phase**: Menampilkan desain batik baru yang unik namun tetap mempertahankan identitas Batik Nitik.
-
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Generated Result (AI)</b><br>
+      <img src="assets/images/run.PNG" width="200px"><br>
+      <i>Warna: Yellow-Black</i>
+    </td>
+  </tr>
+</table>
 ---
 **© 2024 | Machine Learning**
 
