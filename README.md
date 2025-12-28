@@ -55,8 +55,6 @@ Sistem ini dikembangkan bukan untuk menggantikan pengrajin, melainkan sebagai al
 - **Eksplorasi Kreatif**: Menghasilkan variasi motif baru yang tetap berbasis pada pakem (aturan) tradisional Batik Nitik.
 - **Enrichment Context**: Memastikan setiap motif yang dihasilkan memiliki keterkaitan narasi dengan filosofi aslinya melalui metadata faktual.
 - **Efisiensi Produksi**: Mempercepat proses visualisasi konsep desain batik dari query teks sederhana menjadi representasi visual yang detail dan presisi.
-
-Melalui pendekatan ini, teknologi Deep Learning tidak hanya menjadi alat komputasi, tetapi juga menjadi jembatan untuk melestarikan dan mengembangkan warisan budaya di era digital.
 ---
 <h1 id="tujuan-pengembangan" align="center">🎯 Tujuan Pengembangan 🎯</h1>
 
@@ -228,65 +226,41 @@ Cukup jalankan sel notebook secara berurutan:
 - Tahap 2: Fine-Tuning BLIP-2 dengan QLoRA.
 - Tahap 3: Generasi motif baru dengan Stable Diffusion Hybrid RAG.
 ---
-<h1 id="dashboard" align="center">🔬 GrowthVision AI: Child Growth Classification 🔬</h1>
+<h1 id="dashboard" align="center">🧶 Batik Nitik RAG Dashboard 🧶</h1>
 
 <p align="center">
-  <a href="https://child-growth-classification.streamlit.app/" target="_blank">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
-  </a>
+  <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
 </p>
 
-<p align="center">
-  <strong>Live Demo:</strong> 
-  <a href="https://child-growth-classification.streamlit.app/">child-growth-classification.streamlit.app</a>
-</p>
-
-**GrowthVision AI** adalah sistem berbasis web yang dirancang untuk melakukan klasifikasi morfologi wajah pada anak guna mendukung analisis pertumbuhan pediatrik. Proyek ini memanfaatkan teknologi *Deep Learning* dengan arsitektur **CNN** dan **EfficientNet-B0** yang dioptimalkan menggunakan teknik **LoRA (Low-Rank Adaptation)**.
+**Batik Nitik RAG Dashboard** adalah antarmuka berbasis web yang memungkinkan desainer dan peneliti budaya untuk mengeksplorasi motif Batik Nitik menggunakan teknologi Generative AI. Dashboard ini mengintegrasikan **CLIP** untuk pencarian, **BLIP-2** untuk pemahaman konteks, dan **Stable Diffusion** untuk kreasi motif baru.
 
 ---
 
 ## 🚀 Fitur Utama
-- **Batch Processing**: Mampu melakukan analisis hingga 20 subjek secara acak sekaligus.
-- **Inference Models**: Pilihan arsitektur model antara EfficientNet + LoRA, CNN Fine-Tuning, atau SVM Klasik.
-- **Visualisasi Real-time**: Hasil prediksi dilengkapi dengan *Confidence Score* menggunakan Gauge Chart interaktif.
-- **Export Data**: Pengguna dapat mengunduh hasil analisis dalam format CSV untuk keperluan statistik lebih lanjut.
+- **Hybrid Input Query**: Pengguna dapat menggunakan gambar (Image-to-Image) atau teks deskriptif (Text-to-Image) sebagai basis pencarian.
+- **Intelligent Retrieval (FAISS)**: Pencarian cepat berbasis kemiripan vektor (Cosine Similarity) untuk menemukan motif paling relevan dari dataset.
+- **Multimodal Prompt Fusion**: Sistem secara otomatis menggabungkan deskripsi visual AI (BLIP-2) dengan data filosofi asli dari metadata untuk menghasilkan prompt yang kaya.
+- **Interactive Synthesis**: Kontrol penuh atas proses generasi gambar melalui parameter *Strength* dan *Guidance Scale*.
 
 ---
 
 ## 🛠️ Cara Menggunakan Dashboard
 
-### 1. Memilih Sumber Data
-Terdapat dua metode input pada panel kiri (Sidebar):
-* **Sampel Acak GitHub**: Sistem akan mengambil 20 gambar secara acak dari dataset penelitian yang tersimpan di folder `samples`.
-* **Upload Manual**: Pengguna dapat mengunggah foto subjek sendiri (format .jpg, .png, atau .jpeg).
+### 1. Memasukkan Query (Sidebar)
+Terdapat dua metode input pada panel kiri:
+* **Unggah Gambar**: Masukkan foto batik Nitik untuk mencari motif serupa dan menjadikannya referensi struktur (Img2Img).
+* **Query Teks**: Masukkan deskripsi (Contoh: *"Batik warna coklat bunga"*) untuk mencari motif berdasarkan makna atau warna.
 
-### 2. Menjalankan Analisis
-* Pilih arsitektur model yang diinginkan pada menu drop-down.
-* Klik tombol **🚀 RUN INFERENCE**.
-* Tunggu hingga progress bar mencapai 100%.
+### 2. Mengatur Parameter Generasi
+* **Jumlah Retrieval (Top-K)**: Menentukan berapa banyak motif referensi yang akan memengaruhi hasil akhir.
+* **Strength**: Mengatur seberapa jauh AI boleh memodifikasi gambar asli (khusus input gambar).
+* **Guidance Scale**: Mengatur seberapa patuh AI terhadap teks prompt yang dihasilkan.
 
-### 3. Membaca Hasil
-* **Classification Summary**: Ringkasan total jumlah subjek yang terdeteksi sebagai **VP-0 (Proportional)** dan **VP-1 (Linear)**.
-* **Individual Analysis**: Detail hasil per gambar lengkap dengan persentase keyakinan model.
-* **Download Report**: Klik tombol unduh di bagian bawah untuk menyimpan tabel hasil.
-
----
-
-## 📂 Struktur Repositori
-- `app.py`: File utama aplikasi Streamlit.
-- `samples/`: Folder berisi dataset gambar sampel untuk demo.
-- `requirements.txt`: Daftar library Python yang dibutuhkan (PyTorch, Streamlit, Plotly, dll).
-- `README.md`: Dokumentasi proyek.
-
----
-
-## 🔬 Metodologi & Riset
-Sistem ini dikembangkan sebagai bagian dari tugas besar mata kuliah **Machine Learning**. Fokus riset ini adalah mengimplementasikan teknik *transfer learning* dan efisiensi model melalui **LoRA** untuk mengenali fitur morfologi wajah yang berkaitan dengan pola pertumbuhan (Visual Proxy) pada anak-anak.
-
----
-
-## ⚖️ Lisensi
-Proyek ini didistribusikan di bawah **MIT License**. Data yang digunakan dalam demo ini bertujuan untuk kepentingan edukasi dan riset teknologi *screening* awal non-medis.
+### 3. Alur Proses (Run Inference)
+Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
+1.  **Retrieval Phase**: Menampilkan Top-K motif paling mirip beserta skor persentase kemiripannya.
+2.  **Analysis Phase**: Menampilkan *Final Fusion Prompt* yang merupakan gabungan Style visual dan Factual metadata.
+3.  **Generation Phase**: Menampilkan desain batik baru yang unik namun tetap mempertahankan identitas Batik Nitik.
 
 ---
 **© 2024 | Machine Learning**
