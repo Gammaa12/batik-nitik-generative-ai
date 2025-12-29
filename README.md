@@ -243,7 +243,7 @@ Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 Proyek ini disediakan dalam bentuk **Jupyter Notebook (.ipynb)** agar mudah dijalankan, terutama melalui Google Colab.
 
 ### 1. Persiapan Environment
-Download dan buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
+Download dan buka file `Final_Project_TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
 
 ### 2. Instalasi Dependencies
 Cukup jalankan sel pertama di dalam notebook yang berisi perintah instalasi library berikut:
@@ -283,7 +283,7 @@ Cukup jalankan sel notebook secara berurutan:
 
 ## 🛠️ Cara Menggunakan Dashboard
 
-Sebelum masuk ke langkah pertama, silahkan download dan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya. Agar lebih mudah silahkan akses video di link berikut [**Demonstrasi Dashboard**](https://drive.google.com/file/d/1q-WgKOMBbaeaW5OW20cVQXxhjZy-SWzp/view?usp=sharing), terdapat langkah-langkah mulai awal running notebook di colab sampai dengan implementasi dashboardnya.
+Sebelum masuk ke langkah pertama, silahkan download dan buka file FINAL_DASHBOARD_PROJECT_TKC.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya. Agar lebih mudah silahkan akses video di link berikut [**Demonstrasi Dashboard**](https://drive.google.com/file/d/1q-WgKOMBbaeaW5OW20cVQXxhjZy-SWzp/view?usp=sharing), terdapat langkah-langkah mulai awal running notebook di colab sampai dengan implementasi dashboardnya.
 
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
