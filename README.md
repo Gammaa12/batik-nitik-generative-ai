@@ -1,11 +1,11 @@
 <h1 align="center">Batik Nitik Generative AI: Multimodal RAG & Image Synthesis</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
-[![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+<p align="center">[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)</p>
+<p align="center">[![Framework](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)</p>
+<p align="center">[![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)</p>
 
 <p align="center">
-  <img src="Academic Poster.PNG" width="70%">
+  <img src="Academic Poster.png" width="70%">
 </p>
 
 <p align="center">
@@ -25,6 +25,7 @@ Proyek ini mengimplementasikan sistem **Multimodal Retrieval-Augmented Generatio
   - [Preprocessing Data](#preprocessing-data)
   - [Pemodelan](#pemodelan)
 - [Hasil & Evaluasi](#hasil--evaluasi)
+- [Instalasi dan Penggunaan](instalasi-dan-penggunaan)
 - [Dashboard](#dashboard)
 
 ---
@@ -246,7 +247,7 @@ Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 Proyek ini disediakan dalam bentuk **Jupyter Notebook (.ipynb)** agar mudah dijalankan, terutama melalui Google Colab.
 
 ### 1. Persiapan Environment
-Buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
+Download dan buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
 
 ### 2. Instalasi Dependencies
 Cukup jalankan sel pertama di dalam notebook yang berisi perintah instalasi library berikut:
