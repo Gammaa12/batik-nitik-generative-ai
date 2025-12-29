@@ -1,8 +1,12 @@
 <h1 align="center">Batik Nitik Generative AI: Multimodal RAG & Image Synthesis</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
-[![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+<p align="center">
+  <img src="Academic Poster.png" width="70%">
+</p>
+
+<p align="center">
+  Academic Poster : <a href="https://drive.google.com/file/d/1aaF7YUByplIeGeOc9b6D2xoCAfQmVUYX/view?usp=sharing">Access Here</a>
+</p>
 
 Proyek ini mengimplementasikan sistem **Multimodal Retrieval-Augmented Generation (RAG)** untuk melestarikan dan mengembangkan motif Batik Nitik. Sistem ini menggabungkan pencarian kemiripan visual, pemahaman konteks filosofis melalui captioning, dan sintesis gambar berbasis difusi.
 
@@ -17,6 +21,7 @@ Proyek ini mengimplementasikan sistem **Multimodal Retrieval-Augmented Generatio
   - [Preprocessing Data](#preprocessing-data)
   - [Pemodelan](#pemodelan)
 - [Hasil & Evaluasi](#hasil--evaluasi)
+- [Instalasi dan Penggunaan](instalasi-dan-penggunaan)
 - [Dashboard](#dashboard)
 
 ---
@@ -182,45 +187,52 @@ Mengukur kualitas gambar sintetis yang dihasilkan oleh sistem.
 Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 
 ### 1. Query Teks
+
 <table align="center">
   <tr>
     <td align="center">
       <b>Input Query (Teks)</b><br>
-      <img src="assets/images/tks.PNG" width="200px"><br>
+      <img src="assets/images/tks.PNG" width="400px">
     </td>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasiltks.PNG" width="200px"><br>
+      <img src="assets/images/hasiltks.PNG" width="400px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiontks.PNG" width="200px"><br>
+      <img src="assets/images/captiontks.PNG" width="400px">
     </td>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barutks.PNG" width="200px"><br>
+      <img src="assets/images/barutks.PNG" width="400px">
     </td>
   </tr>
 </table>
 
+
 ### 2. Query Gambar
+
 <table align="center">
   <tr>
     <td align="center">
       <b>Input Query (Image)</b><br>
-      <img src="assets/images/gambar.PNG" width="200px"><br>
+      <img src="assets/images/gambar.PNG" width="400px">
     </td>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasilgambar.PNG" width="200px"><br>
+      <img src="assets/images/hasilgambar.PNG" width="400px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiongambar.PNG" width="200px"><br>
+      <img src="assets/images/captiongambar.PNG" width="400px">
     </td>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barugambar.PNG" width="200px"><br>
+      <img src="assets/images/barugambar.PNG" width="400px">
     </td>
   </tr>
 </table>
@@ -231,7 +243,7 @@ Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 Proyek ini disediakan dalam bentuk **Jupyter Notebook (.ipynb)** agar mudah dijalankan, terutama melalui Google Colab.
 
 ### 1. Persiapan Environment
-Buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
+Download dan buka file `Final Project TKC.ipynb` yang ada di repositori ini melalui **Google Colab** atau **Jupyter Lab**. Pastikan Anda menggunakan runtime **GPU** (T4 atau lebih tinggi) karena model yang digunakan (BLIP-2 & Stable Diffusion) memerlukan akselerasi perangkat keras.
 
 ### 2. Instalasi Dependencies
 Cukup jalankan sel pertama di dalam notebook yang berisi perintah instalasi library berikut:
@@ -271,7 +283,7 @@ Cukup jalankan sel notebook secara berurutan:
 
 ## 🛠️ Cara Menggunakan Dashboard
 
-Sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya.
+Sebelum masuk ke langkah pertama, silahkan download dan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya. Agar lebih mudah silahkan akses video di link berikut [**Demonstrasi Dashboard**](https://drive.google.com/file/d/1q-WgKOMBbaeaW5OW20cVQXxhjZy-SWzp/view?usp=sharing), terdapat langkah-langkah mulai awal running notebook di colab sampai dengan implementasi dashboardnya.
 
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
@@ -298,6 +310,7 @@ Terdapat dua metode input pada panel kiri:
     </td>
   </tr>
 </table>
+
 ### 3. Alur Proses (Run Inference)
 Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
 1.  **Retrieval Phase**: Menampilkan Top-K motif paling mirip beserta skor persentase kemiripannya.
@@ -311,6 +324,9 @@ Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
     </td>
   </tr>
 </table>
+
 ---
-**© 2024 | Machine Learning**
+
+**© 2025 | Generative AI**
+
 
