@@ -21,7 +21,7 @@ Proyek ini mengimplementasikan sistem **Multimodal Retrieval-Augmented Generatio
   - [Preprocessing Data](#preprocessing-data)
   - [Pemodelan](#pemodelan)
 - [Hasil & Evaluasi](#hasil--evaluasi)
-- [Instalasi dan Penggunaan](instalasi-dan-penggunaan)
+- [Instalasi dan Penggunaan](#instalasi-dan-penggunaan)
 - [Dashboard](#dashboard)
 
 ---
