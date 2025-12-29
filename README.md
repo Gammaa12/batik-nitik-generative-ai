@@ -4,6 +4,14 @@
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
 [![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 
+<p align="center">
+  <img src="assets/images/Cover.webp" width="70%">
+</p>
+
+<p align="center">
+  Academic Poster : <a href="https://drive.google.com/file/d/1aaF7YUByplIeGeOc9b6D2xoCAfQmVUYX/view?usp=sharing">Access Here</a>
+</p>
+
 Proyek ini mengimplementasikan sistem **Multimodal Retrieval-Augmented Generation (RAG)** untuk melestarikan dan mengembangkan motif Batik Nitik. Sistem ini menggabungkan pencarian kemiripan visual, pemahaman konteks filosofis melalui captioning, dan sintesis gambar berbasis difusi.
 
 ---
@@ -278,7 +286,7 @@ Cukup jalankan sel notebook secara berurutan:
 
 ## 🛠️ Cara Menggunakan Dashboard
 
-Sebelum masuk ke langkah pertama, silahkan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya.
+Sebelum masuk ke langkah pertama, silahkan download dan buka file FINAL DASHBOARD.ipynb cukup jalankan semua cellnya dengan urut mulai dari atas, lalu anda bisa akses dashboard di link berikut [https://unappealably-undawning-susanna.ngrok-free.dev/](https://unappealably-undawning-susanna.ngrok-free.dev/) atau bisa langsung click link yang muncul saat selesai menjalankan cell terakhir di colab. Jika tidak langsung masuk kedalam tampilan dashboard setelah di click link biasanya ada wall, cukup di click saja button **VISIT SITE** maka akan di arahkan langsung ke halaman dashboardnya. Agar lebih mudah silahkan akses video di link berikut [**Demonstrasi Dashboard**](https://drive.google.com/file/d/1q-WgKOMBbaeaW5OW20cVQXxhjZy-SWzp/view?usp=sharing).
 
 ### 1. Memasukkan Query (Sidebar)
 Terdapat dua metode input pada panel kiri:
