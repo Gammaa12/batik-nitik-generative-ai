@@ -187,21 +187,21 @@ Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
   <tr>
     <td align="center">
       <b>Input Query (Teks)</b><br>
-      <img src="assets/images/tks.PNG" width="200px">
+      <img src="assets/images/tks.PNG" width="400px">
     </td>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasiltks.PNG" width="200px">
+      <img src="assets/images/hasiltks.PNG" width="400px">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiontks.PNG" width="200px">
+      <img src="assets/images/captiontks.PNG" width="400px">
     </td>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barutks.PNG" width="200px">
+      <img src="assets/images/barutks.PNG" width="400px">
     </td>
   </tr>
 </table>
@@ -213,21 +213,21 @@ Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
   <tr>
     <td align="center">
       <b>Input Query (Image)</b><br>
-      <img src="assets/images/gambar.PNG" width="200px">
+      <img src="assets/images/gambar.PNG" width="400px">
     </td>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasilgambar.PNG" width="200px">
+      <img src="assets/images/hasilgambar.PNG" width="400px">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiongambar.PNG" width="200px">
+      <img src="assets/images/captiongambar.PNG" width="400px">
     </td>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barugambar.PNG" width="200px">
+      <img src="assets/images/barugambar.PNG" width="400px">
     </td>
   </tr>
 </table>
