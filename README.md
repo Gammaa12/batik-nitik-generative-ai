@@ -1,7 +1,7 @@
 <h1 align="center">Batik Nitik Generative AI: Multimodal RAG & Image Synthesis</h1>
 
 <p align="center">
-  <img src="Academic Poster.png" width="70%">
+  <img src="assets/images/Academic Poster.png" width="70%">
 </p>
 
 <p align="center">
