@@ -182,48 +182,63 @@ Mengukur kualitas gambar sintetis yang dihasilkan oleh sistem.
 Berikut adalah perbandingan proses dari Query hingga Hasil Akhir:
 
 ### 1. Query Teks
+
 <table align="center">
   <tr>
     <td align="center">
       <b>Input Query (Teks)</b><br>
-      <img src="assets/images/tks.PNG" width="200px"><br>
+      <img src="assets/images/tks.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasiltks.PNG" width="200px"><br>
+      <img src="assets/images/hasiltks.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiontks.PNG" width="200px"><br>
+      <img src="assets/images/captiontks.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barutks.PNG" width="200px"><br>
+      <img src="assets/images/barutks.PNG" width="200px">
     </td>
   </tr>
 </table>
 
 ### 2. Query Gambar
+
 <table align="center">
   <tr>
     <td align="center">
       <b>Input Query (Image)</b><br>
-      <img src="assets/images/gambar.PNG" width="200px"><br>
+      <img src="assets/images/gambar.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Retrieval Match (FAISS)</b><br>
-      <img src="assets/images/hasilgambar.PNG" width="200px"><br>
+      <img src="assets/images/hasilgambar.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Caption</b><br>
-      <img src="assets/images/captiongambar.PNG" width="200px"><br>
+      <img src="assets/images/captiongambar.PNG" width="200px">
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Generated Image</b><br>
-      <img src="assets/images/barugambar.PNG" width="200px"><br>
+      <img src="assets/images/barugambar.PNG" width="200px">
     </td>
   </tr>
 </table>
+
 
 ---
 <h1 id="instalasi-dan-penggunaan" align="center">🛠️ Instalasi dan Penggunaan 🛠️</h1>
@@ -312,6 +327,7 @@ Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
     </td>
   </tr>
 </table>
+
 ---
 
 **© 2025 | Generative AI**
