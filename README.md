@@ -1,9 +1,5 @@
 <h1 align="center">Batik Nitik Generative AI: Multimodal RAG & Image Synthesis</h1>
 
-<p align="center">[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)</p>
-<p align="center">[![Framework](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)</p>
-<p align="center">[![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)</p>
-
 <p align="center">
   <img src="Academic Poster.png" width="70%">
 </p>
