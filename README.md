@@ -327,8 +327,6 @@ Setelah klik tombol **🚀 JALANKAN PROSES**, sistem akan mengeksekusi:
 
 ---
 
-<p align="center">
-  **© 2025 | Generative AI**
-</p>
+**© 2025 | Generative AI**
 
 
