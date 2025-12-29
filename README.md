@@ -5,7 +5,7 @@
 [![Model](https://img.shields.io/badge/Model-Stable--Diffusion-lightgrey.svg)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 
 <p align="center">
-  <img src="assets/images/Cover.webp" width="70%">
+  <img src="Academic Poster.PNG" width="70%">
 </p>
 
 <p align="center">
